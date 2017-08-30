@@ -6,11 +6,11 @@ import java.util.Optional;
 
 import br.com.caelum.ingresso.model.Sessao;
 
-public class GerenciadoDeSessao {
+public class GerenciadorDeSessao {
 
 	private List<Sessao> sessoesDaSala;
 
-	public GerenciadoDeSessao(List<Sessao> sessoesDaSala) {
+	public GerenciadorDeSessao(List<Sessao> sessoesDaSala) {
 		this.sessoesDaSala = sessoesDaSala;
 	}
 
