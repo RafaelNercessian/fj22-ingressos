@@ -36,6 +36,14 @@ public class Ingresso {
 		this.preco=this.tipoDeIngresso.aplicaDesconto(sessao.getPreco());
 	}
 	
+	public TipoDeIngresso getTipoDeIngresso() {
+		return tipoDeIngresso;
+	}
+
+	public void setTipoDeIngresso(TipoDeIngresso tipoDeIngresso) {
+		this.tipoDeIngresso = tipoDeIngresso;
+	}
+
 	public Sessao getSessao(){
 		return sessao;
 	}
