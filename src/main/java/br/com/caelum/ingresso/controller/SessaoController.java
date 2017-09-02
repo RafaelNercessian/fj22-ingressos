@@ -94,14 +94,5 @@ public class SessaoController {
 		return modelAndView;
 
 	}
-	
-	@GetMapping("/compra")
-	private ModelAndView checkout() {
-		
-		ModelAndView modelAndView = new ModelAndView("compra/pagamento");
-		
-		modelAndView.addObject("carrinho", carrinho);
-		return modelAndView;
-	}
 
 }

@@ -37,6 +37,10 @@ public class Carrinho {
 				.map(Ingresso::getPreco)
 				.reduce(BigDecimal::add)
 				.orElse(BigDecimal.ZERO);
-	}	
+	}
+	
+	public Compra toCompra(){
+		return new Compra(ingressos);
+	}
 
 }
